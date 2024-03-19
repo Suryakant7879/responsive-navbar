@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-img{
+    background-image: url(bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+.nav-element ul  a:hover{
+     width: auto;
+     height: 70%;
+     background-color: rgb(37, 4, 4);
+     border: 2px solid white;
+     transition: .5s ;
+     border-radius: 8px;
+     box-shadow: 3px 3px 7px rgb(247, 0, 0);
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+.center-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-img{
+    height: 252%;
+    width: 28%;
+}
+.nav-element{
+    height: 70%;
+    width: 55%;
+}
+.menubtn{
+    width: 100%;
+    height: 700px;
+   backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 33;
+}
+.menubtn ul  a:hover{
+    width: auto;
+    height: auto;
+    border-bottom:4px solid red ;
+    border-radius: 3px;
+    transition: .3s;
+}
+.menubtn ul{
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.menubtn ul a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: auto;
+    justify-content: center; 
+}
+.nav-element ul  a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+}
+.nav-element ul {
+    list-style: none;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+.searchbox{
+    height: 70%;
+    width: 30%;
+    display: flex;
+}
+.search{
+    height: 75%;
+    width: 83%;
+    outline: none;
+}
+.search-icon{
+    height: 75%;
+    width: 45px;
+    background-color: white;
+    border: 1px solid gray;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid gray;
+}
+.icon-size{
+    font-size: 1.8rem;
+}
+.search-btn{
+    height: 77%;
+    width: 49px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-left: 0px;
+}
